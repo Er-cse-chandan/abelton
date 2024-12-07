@@ -1,0 +1,732 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 12vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    box-shadow: 5px 5px 5px 5px whitesmoke;
+    
+
+
+
+}
+.nav_menu{
+    height: 12vh;
+    width: 10%;
+    /* border: 2px solid black; */
+    display: flex;
+    /* justify-items: center; */
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.links{
+    height: 12vh;
+    width: 45%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ty_live{
+    height: 12vh;
+    width: 23%;
+    /* border: 2px solid black; */
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_login{
+    height: 12vh;
+    width: 22%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: black;
+}
+#menu{
+   rotate:90deg;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    display: flex;
+    /* align-items: center;
+    
+     */
+     color: black;
+
+}
+.more{
+    color: green;
+}
+.nav_1{
+    height: 8vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex; 
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.nav_1about{
+    height: 8vh;
+    width: 20%;
+    /* border: 2px solid black; */
+}
+.job{
+    color: green;
+}
+
+.slid1{
+    height: 80vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    
+
+
+}
+.slid1_img{
+    height: 80vh;
+    width: 90%;
+    /* border: 2px solid red; */
+    margin-left: 55px;
+    background-image: url("https://ableton-production.imgix.net/about/header.jpg?auto=format&dpr=3&fit=crop&fm=jpg&h=623&ixjsv=1.1.3&q=33&w=914");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ableton_hed{
+    font-size: 4rem;
+    color: red;
+
+}
+.slid2{
+    height: 90vh;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.slid2_lorem{
+    height: 60vh;
+    width: 50%;
+    /* border: 2px solid black; */
+    margin-left: 270px;
+    margin-top: 50px;
+
+}
+.slid2_text{
+    font-size: 26px;
+    line-height: 2.2rem;
+    padding: 15px;
+    font-weight:700;
+    /* font-family: "Rock Salt", serif; */
+}
+.founded{
+    font-size: 1.5rempx;
+    line-height: 1.5rem;
+    padding: 15px;
+}
+span{
+    color: blue;
+}
+
+/* START SLID3 */
+.slid3{
+    height: 150vh;
+    /* width: 100; */
+    /* border: 3px solis red; */
+    display: flex;
+    position: relative;
+
+}
+
+.slid3_color{
+    height: 90vh;
+    width: 40% ;
+    /* border: 2px solid black; */
+    position: absolute;
+    /* float: left; */
+    /* position: relative; */
+    top: 180px ;
+    left: 70px;
+    background-image: url("https://ableton-production.imgix.net/about/photo-1.jpg?dpr=3&fit=crop&h=450&ixjsv=1.1.3&q=33&w=450");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.slid3_trans{
+    height: 100%;
+    width: 60% ;
+    /* border: 2px solid black; */
+    background-color:khaki;
+    /* position: relative; */
+    margin-left: 40%;
+
+    /* position: relative; */
+
+}
+
+ .slid3_img{
+    height: 60vh;
+    width: 40%;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    background-image: url("https://ableton-production.imgix.net/about/photo-2.jpg?dpr=3&fit=crop&h=270&ixjsv=1.1.3&q=33&w=360");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+ }
+ .slid4{
+    height: 50vh;
+    /* border: 2px solid black; */
+    
+    
+    
+}
+.slid4_lorem{
+    height: 50vh;
+    width: 60%;
+    /* border: 2px solid black; */
+    margin-left: 230px;
+    
+    
+    
+}
+.slid4_lorem p{
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 15px;
+
+}
+.slid4_lorem .slid4_text{
+    line-height: 2rem;
+    font-size: 20px;
+    padding: 15px;
+}
+
+/* START SLID5 */
+
+
+.slid5{
+    height: 70vh;
+    width: 100%;
+    /* border: 2px soli red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slid5_video{
+    height: 70vh;
+    width: 56%;
+    /* border: 2px solid black; */
+    
+
+}
+
+/* START SLID6 */
+
+.slid6{
+    height: 80vh;
+    /* border: 2px solid black; */
+}
+.slid6_lorem{
+    height: 60vh;
+    width: 56%;
+    /* border: 2px solid black; */
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.slid6_lorem h1{
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 2rem;
+    padding: 15px;
+}
+.slid6_lorem p{
+    padding: 15px;
+    line-height: 1.5rem;
+}
+
+/* SLID7 */
+
+.slid7{
+    height: 150vh;
+    /* width: 100; */
+    border: 3px solis red;
+    display: flex;
+    position: relative;
+
+}
+
+.slid7_color{
+    height: 100%;
+    width: 60% ;
+    /* border: 2px solid black; */
+    background-color:khaki;
+    /* margin-left: 40%; */
+
+    
+    
+   
+
+}
+.slid7_trans{
+    height: 50vh;
+    width: 40% ;
+    /* border: 2px solid black; */
+    background-image: url("https://ableton-production.imgix.net/about/photo-3.jpg?fit=crop&h=240&ixjsv=1.1.3&w=319");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    background-position: center;
+    position: absolute;
+    top: 90px ;
+    left: 70px;
+
+
+
+}
+.slid7_trans1{
+    height: 50vh;
+    width: 40% ;
+    /* border: 2px solid black; */
+    background-image: url("https://ableton-production.imgix.net/about/photo-4.jpg?fit=crop&h=240&ixjsv=1.1.3&w=319");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    background-position: center;
+    position: absolute;
+    bottom: 90px ;
+    left: 70px;
+
+
+
+}
+
+.slid7_img{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    position: absolute;
+    /* top: 250px; */
+    /* right: 100px; */
+    background-image: url("https://ableton-production.imgix.net/about/photo-5.jpg?fit=crop&h=399&ixjsv=1.1.3&w=399");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    left: 550px;
+    top: 60px;
+
+ }
+
+ /* START SLID8 */
+
+
+.slid8{
+    height: 80vh;
+    /* border: 2px solid black; */
+}
+.slid8_lorem{
+    height: 60vh;
+    width: 56%;
+    /* border: 2px solid black; */
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.slid8_lorem h1{
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 2rem;
+    padding: 15px;
+}
+.slid8_lorem p{
+    padding: 15px;
+    line-height: 2rem;
+}
+
+/* START SLID9 */
+
+.slid9{
+    height: 100vh;
+    width: 85%;
+    border: 2px solid black;
+    margin-left: 90px;
+    background-image: url("https://ableton-production.imgix.net/about/poster-meet-the-makers.jpg?auto=format&fit=crop&fm=jpg&ixjsv=1.1.3&w=836");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* START SLID10 */
+.slid10{
+    height: 80vh;
+    /* border: 2px solid black; */
+}
+.slid10_lorem{
+    height: 60vh;
+    width: 56%;
+    /* border: 2px solid black; */
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.slid10_lorem h1{
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 2rem;
+    padding: 15px;
+}
+.slid10_lorem p{
+    padding: 15px;
+    line-height: 1.5rem;
+}
+/* start slid11 */
+.slid11{
+    height: 150vh;
+    width: 65%;
+    /* border: 2px solid black; */
+    display: flex;
+    margin-left: 200px;
+    position: relative;
+    background-color: #d5b3ff;
+
+}
+.slid11_img1{
+    height: 90vh;
+    width: 65%;
+    /* border: 2px solid black; */
+    position: absolute;
+    right: -200px;
+    top: 150px;
+    background-image: url("https://ableton-production.imgix.net/about/photo-7.jpg?fit=crop&h=399&ixjsv=1.1.3&w=399");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.slid11_img2{
+    height: 60vh;
+    width: 55%;
+    /* border: 2px solid black; */
+    position: absolute;
+    right: 500px;
+    top: 250px;
+    background-image: url("https://ableton-production.imgix.net/about/photo-6-a.jpg?fit=crop&h=239&ixjsv=1.1.3&w=319");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+
+}
+
+/* SLID SLID12 */
+.slid12{
+    height: 80vh;
+    /* border: 2px solid black; */
+}
+.slid12_lorem{
+    height: 60vh;
+    width: 56%;
+    /* border: 2px solid black; */
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.slid12_lorem h1{
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 2rem;
+    padding: 15px;
+}
+.slid12_lorem p{
+    padding: 15px;
+    line-height: 1.5rem;
+}
+
+
+/* START SLID13 */
+.slid13{
+    height: 120vh;
+    /* border: 2px solid black; */
+    display: flex;
+    
+}
+.slid13_img1{
+    height: 120vh;
+    width: 40%;
+    /* border: 2px solid black; */
+    margin-left: 110px;
+    background-image: url("https://ableton-production.imgix.net/about/photo-8.jpg?crop=right&fit=crop&h=499&ixjsv=1.1.3&w=831");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.slid13_img2{
+    height: 90vh;
+    width: 40%;
+    /* border: 2px solid black; */
+    margin-top: 80px;
+    background-color: #d5b3ff;
+    position: relative;
+
+}
+.slid13_box{
+    height: 50vh;
+    width: 70%;
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 70px;
+    top: 100px;
+    line-height: 2rem;
+    font-family: "Sriracha", serif;
+}
+.slid13_box a{
+    font-family: "Sriracha", serif;
+    font-weight: bold;
+    color: blue;
+    margin-top: 30px;
+}
+
+.slid14{
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+    position: relative;
+
+
+
+}
+.Ableton{
+    height: 100vh;
+    width: 20%;
+    /* border: 2px solid black; */
+    margin-left: 75px;
+
+}
+.ableton_box1{
+    height: 15vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 60px;
+    display: flex;
+    justify-content: left;
+    font-size: 3rem;
+    align-items: center;
+
+}
+.ableton_box2{
+    height: 15vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    line-height: 2rem;
+
+
+}
+.ableton_box3{
+    height: 8vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+
+}
+.ableton_box4{
+    height: 20vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 50px;
+
+}
+.ableton_box4 h3{
+    margin-left: 11px;
+}
+.ableton_box4 a{
+    line-height: 2rem;
+}
+
+.facebook{
+    height: 8vh;
+    width: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.ri-facebook-circle-fill{
+    color: blueviolet;
+}
+.ri-instagram-line{
+    color: slateblue;
+}
+.ri-youtube-line{
+    color: red;
+}
+/* .twitter{
+    height: 8vh;
+    width: 20%;
+    border: 1px solid black;
+}
+.instagram{
+    height: 8vh;
+    width: 20%;
+    border: 1px solid black;
+}
+.youtube{
+    height: 8vh;
+    width: 20%;
+    border: 1px solid black;
+}
+.tiktok{
+    height: 8vh;
+    width: 20%;
+    border: 1px solid black;
+} */
+
+.education{
+    height: 55vh;
+    width: 25%;
+    /* border: 2px solid black; */
+    margin-top: 180px;
+    margin-left: 80px;
+}
+.education1{
+    height: 25vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 8px;
+    line-height: 2rem;
+}
+.education1 h3{
+    margin-left: 15px;
+}
+
+.language{
+    height: 20vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 42px;
+    /* display: flex; */
+}
+.language a{
+    
+}
+#india{
+    width: 60%;
+    height: 6vh;
+}
+#english{
+    height: 6vh;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.singhup{
+    height: 20vh;
+    width: 35%;
+    /* border: 2px solid black; */
+    margin-top: 190px;
+    margin-left: 5px;
+}
+.singhup a{
+    line-height: 2rem;
+    margin-top: 10px;
+}
+.singhup h3{
+    margin-left: 11px;
+}
+
+form{
+    position: relative;
+    margin-left: 10px;
+}
+.address{
+    width: 70%;
+    height: 6vh;
+    /* position: absolute; */
+    padding: 5px;
+}
+.summit{
+    width: 25%;
+    height: 6vh;
+    position: absolute;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px;
+    right: 45px;
+    
+
+    
+
+}
+.slid15{
+    height: 10vh;
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.slid15_link{
+    height: 10vh;
+    width: 50%;
+    /* border: 2px solid black; */
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.slid15_link a{
+    padding-left: 15px;
+
+
+}
+.made{
+    height: 10vh;
+    width: 10%;
+    /* border: 2px solid black; */
+    margin-left: 270px;
+    display: flex;
+    font-size: 10px;
+    justify-content: right;
+    align-items: center;
+}
+.menu_icon1{
+    height: 10vh;
+    width: 5%;
+    /* border: 2px solid black; */
+    display: flex;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+.menu_icon2{
+    height: 10vh;
+    width: 5%;
+    /* border: 2px solid black; */
+    display: flex;
+    font-size: 35px;
+    rotate: 90deg;
+    position: absolute;
+    right: 105px;
+    font-weight: bold;
+}
